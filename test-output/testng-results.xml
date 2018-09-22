@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: terms.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Login Feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Validate the UserName and Password</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I have a prescription Application (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I enter the correct UserName and Password (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I should be able to see the HomePage (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4636" started-at="2018-09-04T15:47:03Z" finished-at="2018-09-04T15:47:08Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:ApplicationDataTest.RunnerTest@6737fd8f]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="4636" started-at="2018-09-04T15:47:03Z" finished-at="2018-09-04T15:47:08Z">
+      <class name="ApplicationDataTest.RunnerTest">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:ApplicationDataTest.RunnerTest@6737fd8f]" name="run_cukes" duration-ms="4602" started-at="2018-09-04T11:47:03Z" description="Runs Cucumber Features" finished-at="2018-09-04T11:47:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: terms.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Login Feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Validate the UserName and Password</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I have a prescription Application (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I enter the correct UserName and Password (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I should be able to see the HomePage (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- ApplicationDataTest.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

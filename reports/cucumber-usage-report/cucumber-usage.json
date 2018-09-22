@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Validate the UserName and Password",
+        "description": "",
+        "id": "login-feature;validate-the-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 325966283,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have a prescription Application",
+            "match": {
+              "location": "DataVariableTest.i_have_a_prescription_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3395365744,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the correct UserName and Password",
+            "match": {
+              "location": "DataVariableTest.i_enter_the_correct_UserName_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11710459,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to see the HomePage",
+            "match": {
+              "location": "DataVariableTest.i_should_be_able_to_see_the_HomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Validate the Login Functionality",
+        "description": "",
+        "id": "login-feature;validate-the-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216423,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter an invalid userName and Password",
+            "match": {
+              "location": "DataVariableTest.i_enter_an_invalid_userName_and_Password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34929,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i initiate the tool",
+            "match": {
+              "location": "DataVariableTest.i_initiate_the_tool()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31162,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to guide the tool",
+            "match": {
+              "location": "DataVariableTest.i_should_be_able_to_guide_the_tool()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "I want to use this template for my feature file",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "terms.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]

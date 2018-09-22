@@ -1,0 +1,13 @@
+@login
+Feature: Login Feature
+  I want to use this template for my feature file
+
+  Scenario: Validate the UserName and Password     [90m# terms.feature:5[0m
+    [32mGiven [0m[32mI have a prescription Application[0m        [90m# DataVariableTest.i_have_a_prescription_Application()[0m
+    [32mWhen [0m[32mI enter the correct UserName and Password[0m [90m# DataVariableTest.i_enter_the_correct_UserName_and_Password()[0m
+    [32mThen [0m[32mI should be able to see the HomePage[0m      [90m# DataVariableTest.i_should_be_able_to_see_the_HomePage()[0m
+
+  Scenario: Validate the Login Functionality       [90m# terms.feature:10[0m
+    [32mGiven [0m[32mI enter an invalid userName and Password[0m [90m# DataVariableTest.i_enter_an_invalid_userName_and_Password()[0m
+    [32mWhen [0m[32mi initiate the tool[0m                       [90m# DataVariableTest.i_initiate_the_tool()[0m
+    [32mThen [0m[32mI should be able to guide the tool[0m        [90m# DataVariableTest.i_should_be_able_to_guide_the_tool()[0m

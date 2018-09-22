@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.733325">
+<testcase classname="Login Feature" name="Validate the UserName and Password" time="3.733042">
+<system-out><![CDATA[Given I have a prescription Application.....................................passed
+When I enter the correct UserName and Password..............................passed
+Then I should be able to see the HomePage...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Validate the Login Functionality" time="0.000283">
+<system-out><![CDATA[Given I enter an invalid userName and Password..............................passed
+When i initiate the tool....................................................passed
+Then I should be able to guide the tool.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
